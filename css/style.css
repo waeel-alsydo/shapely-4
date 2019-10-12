@@ -1,0 +1,358 @@
+/* start fonts Google */
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+/* end fonts Google */
+
+/* start  Body */
+body {
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat fixed;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+p{
+    color: #8c979e;
+}
+h2{
+    color: #0e1015;
+}
+/* start header */
+header {
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.205);
+}
+nav {
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+}
+nav > a {
+    margin-left: 14%;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666;
+}
+nav ul li {
+    display: inline-block;
+    padding-left: 25px;
+    text-transform: uppercase;
+}
+li a {
+    font-size: 12px;
+    color: #222;
+}
+/* end header */
+
+/* start Main */
+
+.wordpress:first-of-type {
+    height: 60vh;
+    text-align: center;
+    margin-top: 15rem;
+}
+.wordpress h1 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+.wordpress p {
+    font-size: 14px;
+    margin-bottom: 4.5em;
+    color: #fff;
+}
+.wordpress a {
+    color: #fff;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 55px;
+}
+.wordpress a:nth-child(3) {
+    border: 2px solid #745cf9;
+    background-color: #745cf9;  
+}
+.wordpress a:nth-child(4) {
+    border: 2px solid #fff;
+}
+.wordpress a:nth-child(3):hover {
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
+.wordpress a:nth-child(4):hover {
+    background-color: #fff;
+    color: #000
+}
+.wordpress h1{
+    color: #fff;
+}
+.container-seo{
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.seo img,.seo-2 img{
+    width: 652px;
+    height: 452px;
+}
+.seo,.seo-2{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.seo-itmes{
+    margin-left: 10%;
+}
+.seo-itmes-2{
+    margin-right: 10%;
+}
+.seo-itmes p,.seo-itmes-2 p{
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+.seo a,.seo-2 a{
+    border: 2px solid #745cf9;
+    background-color: #745cf9;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 40px;  
+}
+.container-seo-2{
+    height: 80vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+.seo a:hover , .seo-2 a:hover{
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
+.small{
+    height: 45vh;
+    background:url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 80px;
+    line-height: 80px;
+}
+.small h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin: 0;
+}
+.small p{
+    width: 65%;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 14px;
+    line-height: 22px;
+    margin: 30px auto;
+}
+.small a{
+    border: 2px solid #745cf9;
+    background-color: #745cf9;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+}
+.small a:hover{
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
+.option{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 50px;
+}
+.option div{
+    margin: 50px;
+}
+.option div p{
+    color: #999;
+    font-size: 14px;
+    line-height: 25px;
+}
+.option a{
+    border: 2px solid #745cf9;
+    background-color: #745cf9;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+}
+.option a:hover{
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
+/* overlay start */
+.our-project{
+    background-color: #0D0F14;
+    margin-top: -4px;
+}
+.our-project h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 90px 0 40px 0;
+}
+.our-project p{
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.over-container{
+    background-color: #0D0F14;
+}
+.over-container img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.over-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1fr);
+    line-height: normal;
+}
+.over-container article{
+    position: relative;
+}
+.over-container .overlay{
+    position: absolute;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .4);
+    transition: all .3s ease;
+    opacity: 0;
+}
+article:hover .overlay{
+    top: 0;
+    opacity: 1;
+}
+.over-container .text{
+    font-size: 24px;
+}
+/* end overlay */
+.customers{
+    height: 60vh;
+    background: url(https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1451417379553-15d8e8f49cde.jpg) center/cover no-repeat fixed;
+}
+.customers .waht{
+    width: 50%;
+    text-align: center;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+.customers h2{
+    font-size: 30px;
+    color: #fff;
+}
+.customers p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.637);
+    line-height: 25px;
+}
+.customers img {
+    width: 14%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.customers b{
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+.clients{
+    height: 40vh;
+    background-color: #fff;
+}
+.clients h2{
+    font-size: 30px;
+    padding: 90px 0 60px 0;
+    text-align: center;
+    margin: 0;
+}
+.clients img{
+    width: 60px;
+}
+.clients ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.like{
+    height: 30vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.like h2{
+    font-size: 30px;
+}
+.like a{
+    border: 2px solid #745cf9;
+    background-color: #745cf9;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 50px;
+}
+.like a:hover{
+    background-color: #5234f9;
+    border: 1px solid #5234f9;
+}
+footer{
+    background-color: #0D0F14;
+    color: #fff;
+}
+.foot {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.foot ul{
+    list-style-type: none;
+    display: flex;
+}
+.foot li{
+    margin: 10px;
+}
+.fa-sort-asc  {
+    position: absolute;
+    top: 60%;
+    left: 95%;
+    border: 2px solid #fff;
+    padding: 15px 15px 4px 15px;
+    opacity: .5;
+}
+.fa{
+    font-size:20px;
+    color:#fff
+}
+.fa:hover{
+    color: #5234f9;
+}
+
+
+
